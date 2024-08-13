@@ -16,6 +16,7 @@ public class BootDemoProjectApplication {
 
 	@GetMapping("/")
 	public String index() {
+		System.out.println("Changes have bee made here");
 		return "Greetings from Spring Boot!";
 	}
 
